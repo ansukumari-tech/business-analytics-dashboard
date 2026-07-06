@@ -1,0 +1,93 @@
+// ============================================================
+// Business Analytics Dashboard — DAX Measures Reference
+// Copy-paste these into Power BI Desktop
+// ============================================================
+
+// ── REVENUE & PROFITABILITY ───────────────────────────────
+
+Total Revenue =
+    SUMX(order_items,
+        order_items[quantity] * order_items[unit_price] * (1 - order_items[discount]))
+
+Total Cost =
+    SUMX(order_items,
+        order_items[quantity] * RELATED(products[unit_cost]))
+
+Gross Profit = [Total Revenue] - [Total Cost]
+
+Profit Margin % =
+    DIVIDE([Gross Profit], [Total Revenue], 0) * 100
+
+Delivered Revenue =
+    CALCULATE([Total Revenue], orders[status] = "Delivered")
+
+Delivered Profit =
+    CALCULATE([Gross Profit], orders[status] = "Delivered")
+
+// ── ORDER METRICS ─────────────────────────────────────────
+
+Total Orders = DISTINCTCOUNT(orders[order_id])
+
+Avg Order Value =
+    DIVIDE([Total Revenue], [Total Orders], 0)
+
+Cancellation Rate % =
+    DIVIDE(
+        CALCULATE(COUNTROWS(orders), orders[status] = "Cancelled"),
+        COUNTROWS(orders), 0) * 100
+
+Return Rate % =
+    DIVIDE(
+        CALCULATE(COUNTROWS(orders), orders[status] = "Returned"),
+        COUNTROWS(orders), 0) * 100
+
+// ── TIME INTELLIGENCE ─────────────────────────────────────
+
+// Requires a Calendar table: mark it as Date Table
+// Create one with: CALENDAR(DATE(2023,1,1), DATE(2024,12,31))
+
+Revenue MTD =
+    CALCULATE([Total Revenue], DATESMTD('Calendar'[Date]))
+
+Revenue YTD =
+    CALCULATE([Total Revenue], DATESYTD('Calendar'[Date]))
+
+Revenue PMTD =
+    CALCULATE([Total Revenue],
+        DATEADD(DATESMTD('Calendar'[Date]), -1, MONTH))
+
+MoM Growth % =
+    DIVIDE([Revenue MTD] - [Revenue PMTD], [Revenue PMTD], 0) * 100
+
+YoY Growth % =
+    VAR CurrYear = [Total Revenue]
+    VAR PrevYear = CALCULATE([Total Revenue],
+                    DATEADD('Calendar'[Date], -1, YEAR))
+    RETURN DIVIDE(CurrYear - PrevYear, PrevYear, 0) * 100
+
+// ── RANKING ───────────────────────────────────────────────
+
+Product Revenue Rank =
+    RANKX(ALL(products[product_name]), [Total Revenue],, DESC)
+
+Rep Revenue Rank =
+    RANKX(ALL(sales_reps[rep_name]), [Delivered Revenue],, DESC)
+
+// ── TARGET ACHIEVEMENT ────────────────────────────────────
+
+Target Achievement % =
+    DIVIDE([Delivered Revenue], SUM(monthly_targets[target_revenue]), 0) * 100
+
+// ── CUSTOMER METRICS ──────────────────────────────────────
+
+Unique Customers = DISTINCTCOUNT(customers[customer_id])
+
+Revenue per Customer =
+    DIVIDE([Total Revenue], [Unique Customers], 0)
+
+// ── CONDITIONAL KPI COLOR ─────────────────────────────────
+// Use in conditional formatting → Field value
+
+Margin Color =
+    IF([Profit Margin %] >= 40, "#43E97B",
+    IF([Profit Margin %] >= 25, "#F7971E", "#FF6584"))

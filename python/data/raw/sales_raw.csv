@@ -1,0 +1,301 @@
+order_id,order_date,customer_id,rep_id,product_id,quantity,discount,status,customer_name,segment,region_id,city,region_name,rep_name,product_name,category,unit_cost,unit_price,revenue,cost,profit,year,month,month_name,quarter,margin_pct
+1,2023-04-13,2,2,5,4,0.0,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Kavya Iyer,Standing Desk,Furniture,15000,28000,112000.0,60000,52000.0,2023,4,Apr,2,46.43
+2,2024-03-11,6,2,2,7,0.0,Delivered,Growfast Ventures,Small Business,4,Pune,West,Kavya Iyer,Wireless Mouse,Electronics,350,799,5593.0,2450,3143.0,2024,3,Mar,1,56.2
+3,2023-09-28,3,2,12,7,0.0,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Kavya Iyer,Mechanical Keyboard,Electronics,3500,6999,48993.0,24500,24493.0,2023,9,Sep,3,49.99
+4,2023-04-17,13,2,10,5,0.1,Pending,CloudNine Tech,Small Business,1,Noida,North,Kavya Iyer,Webcam HD 1080p,Electronics,2200,4299,19345.5,11000,8345.5,2023,4,Apr,2,43.14
+5,2023-03-13,9,3,13,1,0.0,Pending,NextGen Retail,Small Business,5,Nagpur,Central,Rohit Das,Desk Lamp LED,Furniture,900,1799,1799.0,900,899.0,2023,3,Mar,1,49.97
+6,2024-12-01,4,1,6,4,0.2,Delivered,Infosys Ltd,Corporate,2,Bangalore,South,Arjun Mehta,Whiteboard 4x3,Office,3500,6500,20800.0,14000,6800.0,2024,12,Dec,4,32.69
+7,2023-01-21,1,4,5,6,0.0,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Simran Kaur,Standing Desk,Furniture,15000,28000,168000.0,90000,78000.0,2023,1,Jan,1,46.43
+8,2024-09-06,4,2,6,7,0.08,Cancelled,Infosys Ltd,Corporate,2,Bangalore,South,Kavya Iyer,Whiteboard 4x3,Office,3500,6500,41860.0,24500,17360.0,2024,9,Sep,3,41.47
+9,2023-05-02,1,5,1,3,0.0,Cancelled,Reliance Industries,Corporate,1,Mumbai,North,Nikhil Tiwari,Laptop Pro 15,Electronics,45000,72000,216000.0,135000,81000.0,2023,5,May,2,37.5
+10,2024-04-11,14,2,5,4,0.15,Cancelled,HCL Technologies,Corporate,1,Noida,North,Kavya Iyer,Standing Desk,Furniture,15000,28000,95200.0,60000,35200.0,2024,4,Apr,2,36.97
+11,2023-08-03,5,5,9,5,0.0,Delivered,Priya Nair,Consumer,2,Chennai,South,Nikhil Tiwari,A4 Paper Ream 500,Stationery,250,499,2495.0,1250,1245.0,2023,8,Aug,3,49.9
+12,2023-11-27,4,3,12,6,0.1,Pending,Infosys Ltd,Corporate,2,Bangalore,South,Rohit Das,Mechanical Keyboard,Electronics,3500,6999,37794.6,21000,16794.6,2023,11,Nov,4,44.44
+13,2024-04-03,8,5,10,1,0.1,Returned,Sneha Joshi,Consumer,4,Pune,West,Nikhil Tiwari,Webcam HD 1080p,Electronics,2200,4299,3869.1,2200,1669.1,2024,4,Apr,2,43.14
+14,2023-03-29,8,4,14,1,0.0,Returned,Sneha Joshi,Consumer,4,Pune,West,Simran Kaur,File Cabinet 4-draw,Furniture,7500,13500,13500.0,7500,6000.0,2023,3,Mar,1,44.44
+15,2024-01-08,7,1,2,5,0.1,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Arjun Mehta,Wireless Mouse,Electronics,350,799,3595.5,1750,1845.5,2024,1,Jan,1,51.33
+16,2023-04-10,3,5,1,5,0.05,Returned,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,Laptop Pro 15,Electronics,45000,72000,342000.0,225000,117000.0,2023,4,Apr,2,34.21
+17,2024-10-25,1,5,14,3,0.0,Cancelled,Reliance Industries,Corporate,1,Mumbai,North,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,40500.0,22500,18000.0,2024,10,Oct,4,44.44
+18,2023-05-11,1,1,10,7,0.0,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Arjun Mehta,Webcam HD 1080p,Electronics,2200,4299,30093.0,15400,14693.0,2023,5,May,2,48.83
+19,2024-10-23,12,4,13,1,0.08,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Simran Kaur,Desk Lamp LED,Furniture,900,1799,1655.08,900,755.08,2024,10,Oct,4,45.62
+20,2023-11-05,11,2,11,6,0.08,Pending,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Kavya Iyer,Monitor 24-inch,Electronics,12000,19999,110394.48,72000,38394.48,2023,11,Nov,4,34.78
+21,2023-12-10,3,5,9,4,0.0,Pending,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,A4 Paper Ream 500,Stationery,250,499,1996.0,1000,996.0,2023,12,Dec,4,49.9
+22,2024-05-06,6,1,10,6,0.15,Delivered,Growfast Ventures,Small Business,4,Pune,West,Arjun Mehta,Webcam HD 1080p,Electronics,2200,4299,21924.9,13200,8724.9,2024,5,May,2,39.79
+23,2024-02-18,7,3,9,2,0.08,Pending,Wipro Technologies,Corporate,2,Hyderabad,South,Rohit Das,A4 Paper Ream 500,Stationery,250,499,918.16,500,418.16,2024,2,Feb,1,45.54
+24,2024-01-21,6,1,15,2,0.0,Cancelled,Growfast Ventures,Small Business,4,Pune,West,Arjun Mehta,Planner 2024,Stationery,200,449,898.0,400,498.0,2024,1,Jan,1,55.46
+25,2023-07-11,14,3,9,5,0.1,Returned,HCL Technologies,Corporate,1,Noida,North,Rohit Das,A4 Paper Ream 500,Stationery,250,499,2245.5,1250,995.5,2023,7,Jul,3,44.33
+26,2023-10-04,14,4,6,3,0.0,Cancelled,HCL Technologies,Corporate,1,Noida,North,Simran Kaur,Whiteboard 4x3,Office,3500,6500,19500.0,10500,9000.0,2023,10,Oct,4,46.15
+27,2023-06-10,6,2,15,2,0.2,Delivered,Growfast Ventures,Small Business,4,Pune,West,Kavya Iyer,Planner 2024,Stationery,200,449,718.4,400,318.4,2023,6,Jun,2,44.32
+28,2024-04-04,6,1,8,1,0.08,Cancelled,Growfast Ventures,Small Business,4,Pune,West,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,137.08,60,77.08,2024,4,Apr,2,56.23
+29,2023-11-10,13,5,14,6,0.0,Returned,CloudNine Tech,Small Business,1,Noida,North,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,81000.0,45000,36000.0,2023,11,Nov,4,44.44
+30,2023-01-22,3,4,11,6,0.05,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Simran Kaur,Monitor 24-inch,Electronics,12000,19999,113994.3,72000,41994.3,2023,1,Jan,1,36.84
+31,2023-09-10,6,1,15,5,0.0,Delivered,Growfast Ventures,Small Business,4,Pune,West,Arjun Mehta,Planner 2024,Stationery,200,449,2245.0,1000,1245.0,2023,9,Sep,3,55.46
+32,2024-07-14,8,5,13,7,0.1,Delivered,Sneha Joshi,Consumer,4,Pune,West,Nikhil Tiwari,Desk Lamp LED,Furniture,900,1799,11333.7,6300,5033.7,2024,7,Jul,3,44.41
+33,2024-04-19,11,1,1,7,0.0,Delivered,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Arjun Mehta,Laptop Pro 15,Electronics,45000,72000,504000.0,315000,189000.0,2024,4,Apr,2,37.5
+34,2023-02-28,11,3,10,4,0.0,Delivered,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Rohit Das,Webcam HD 1080p,Electronics,2200,4299,17196.0,8800,8396.0,2023,2,Feb,1,48.83
+35,2024-05-25,2,1,4,5,0.08,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Arjun Mehta,Office Chair Ergo,Furniture,8000,14500,66700.0,40000,26700.0,2024,5,May,2,40.03
+36,2024-11-12,5,1,1,4,0.0,Delivered,Priya Nair,Consumer,2,Chennai,South,Arjun Mehta,Laptop Pro 15,Electronics,45000,72000,288000.0,180000,108000.0,2024,11,Nov,4,37.5
+37,2024-04-20,14,1,8,7,0.1,Delivered,HCL Technologies,Corporate,1,Noida,North,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,938.7,420,518.7,2024,4,Apr,2,55.26
+38,2024-11-30,1,4,1,5,0.0,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Simran Kaur,Laptop Pro 15,Electronics,45000,72000,360000.0,225000,135000.0,2024,11,Nov,4,37.5
+39,2023-07-09,12,1,3,5,0.05,Returned,Meera Singh,Consumer,5,Bhopal,Central,Arjun Mehta,USB-C Hub 7-in-1,Electronics,900,1999,9495.25,4500,4995.25,2023,7,Jul,3,52.61
+40,2024-11-17,15,5,13,5,0.15,Cancelled,Divya Reddy,Consumer,2,Hyderabad,South,Nikhil Tiwari,Desk Lamp LED,Furniture,900,1799,7645.75,4500,3145.75,2024,11,Nov,4,41.14
+41,2024-07-16,1,3,4,7,0.08,Cancelled,Reliance Industries,Corporate,1,Mumbai,North,Rohit Das,Office Chair Ergo,Furniture,8000,14500,93380.0,56000,37380.0,2024,7,Jul,3,40.03
+42,2024-07-20,5,3,15,4,0.0,Returned,Priya Nair,Consumer,2,Chennai,South,Rohit Das,Planner 2024,Stationery,200,449,1796.0,800,996.0,2024,7,Jul,3,55.46
+43,2023-09-01,12,1,15,4,0.1,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Arjun Mehta,Planner 2024,Stationery,200,449,1616.4,800,816.4,2023,9,Sep,3,50.51
+44,2024-05-19,13,4,15,5,0.08,Delivered,CloudNine Tech,Small Business,1,Noida,North,Simran Kaur,Planner 2024,Stationery,200,449,2065.4,1000,1065.4,2024,5,May,2,51.58
+45,2023-05-11,3,4,8,2,0.0,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Simran Kaur,Ballpoint Pens 12pk,Stationery,60,149,298.0,120,178.0,2023,5,May,2,59.73
+46,2024-04-29,4,5,6,3,0.0,Pending,Infosys Ltd,Corporate,2,Bangalore,South,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,19500.0,10500,9000.0,2024,4,Apr,2,46.15
+47,2024-10-08,3,1,14,7,0.15,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Arjun Mehta,File Cabinet 4-draw,Furniture,7500,13500,80325.0,52500,27825.0,2024,10,Oct,4,34.64
+48,2023-01-21,1,3,10,3,0.1,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Rohit Das,Webcam HD 1080p,Electronics,2200,4299,11607.3,6600,5007.3,2023,1,Jan,1,43.14
+49,2023-06-16,1,4,12,3,0.0,Cancelled,Reliance Industries,Corporate,1,Mumbai,North,Simran Kaur,Mechanical Keyboard,Electronics,3500,6999,20997.0,10500,10497.0,2023,6,Jun,2,49.99
+50,2023-10-01,12,1,7,4,0.2,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Arjun Mehta,Sticky Notes Pack,Stationery,80,199,636.8,320,316.8,2023,10,Oct,4,49.75
+51,2024-01-23,12,4,14,4,0.0,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Simran Kaur,File Cabinet 4-draw,Furniture,7500,13500,54000.0,30000,24000.0,2024,1,Jan,1,44.44
+52,2024-08-23,14,4,8,2,0.05,Delivered,HCL Technologies,Corporate,1,Noida,North,Simran Kaur,Ballpoint Pens 12pk,Stationery,60,149,283.1,120,163.1,2024,8,Aug,3,57.61
+53,2023-11-12,13,3,2,3,0.08,Delivered,CloudNine Tech,Small Business,1,Noida,North,Rohit Das,Wireless Mouse,Electronics,350,799,2205.24,1050,1155.24,2023,11,Nov,4,52.39
+54,2023-01-14,14,2,13,3,0.0,Delivered,HCL Technologies,Corporate,1,Noida,North,Kavya Iyer,Desk Lamp LED,Furniture,900,1799,5397.0,2700,2697.0,2023,1,Jan,1,49.97
+55,2023-08-30,5,5,10,5,0.08,Returned,Priya Nair,Consumer,2,Chennai,South,Nikhil Tiwari,Webcam HD 1080p,Electronics,2200,4299,19775.4,11000,8775.4,2023,8,Aug,3,44.38
+56,2023-12-12,6,5,14,4,0.15,Delivered,Growfast Ventures,Small Business,4,Pune,West,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,45900.0,30000,15900.0,2023,12,Dec,4,34.64
+57,2024-07-18,3,3,11,3,0.0,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Rohit Das,Monitor 24-inch,Electronics,12000,19999,59997.0,36000,23997.0,2024,7,Jul,3,40.0
+58,2023-12-06,12,4,8,6,0.08,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Simran Kaur,Ballpoint Pens 12pk,Stationery,60,149,822.48,360,462.48,2023,12,Dec,4,56.23
+59,2023-04-02,9,1,3,2,0.0,Returned,NextGen Retail,Small Business,5,Nagpur,Central,Arjun Mehta,USB-C Hub 7-in-1,Electronics,900,1999,3998.0,1800,2198.0,2023,4,Apr,2,54.98
+60,2024-01-02,5,4,7,6,0.0,Cancelled,Priya Nair,Consumer,2,Chennai,South,Simran Kaur,Sticky Notes Pack,Stationery,80,199,1194.0,480,714.0,2024,1,Jan,1,59.8
+61,2024-03-30,8,3,3,6,0.08,Cancelled,Sneha Joshi,Consumer,4,Pune,West,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,11034.48,5400,5634.48,2024,3,Mar,1,51.06
+62,2024-03-03,13,5,15,7,0.05,Delivered,CloudNine Tech,Small Business,1,Noida,North,Nikhil Tiwari,Planner 2024,Stationery,200,449,2985.85,1400,1585.85,2024,3,Mar,1,53.11
+63,2024-05-23,1,4,7,7,0.1,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Simran Kaur,Sticky Notes Pack,Stationery,80,199,1253.7,560,693.7,2024,5,May,2,55.33
+64,2023-02-04,14,5,14,2,0.0,Pending,HCL Technologies,Corporate,1,Noida,North,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,27000.0,15000,12000.0,2023,2,Feb,1,44.44
+65,2023-07-25,5,1,11,6,0.1,Returned,Priya Nair,Consumer,2,Chennai,South,Arjun Mehta,Monitor 24-inch,Electronics,12000,19999,107994.6,72000,35994.6,2023,7,Jul,3,33.33
+66,2023-03-22,15,5,15,3,0.2,Cancelled,Divya Reddy,Consumer,2,Hyderabad,South,Nikhil Tiwari,Planner 2024,Stationery,200,449,1077.6,600,477.6,2023,3,Mar,1,44.32
+67,2024-07-15,3,5,12,4,0.0,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,Mechanical Keyboard,Electronics,3500,6999,27996.0,14000,13996.0,2024,7,Jul,3,49.99
+68,2024-01-23,12,2,13,2,0.05,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Kavya Iyer,Desk Lamp LED,Furniture,900,1799,3418.1,1800,1618.1,2024,1,Jan,1,47.34
+69,2023-01-02,1,2,2,5,0.1,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Kavya Iyer,Wireless Mouse,Electronics,350,799,3595.5,1750,1845.5,2023,1,Jan,1,51.33
+70,2024-01-25,4,2,10,6,0.0,Delivered,Infosys Ltd,Corporate,2,Bangalore,South,Kavya Iyer,Webcam HD 1080p,Electronics,2200,4299,25794.0,13200,12594.0,2024,1,Jan,1,48.83
+71,2024-07-19,15,5,6,2,0.0,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,13000.0,7000,6000.0,2024,7,Jul,3,46.15
+72,2023-04-16,13,3,3,1,0.0,Pending,CloudNine Tech,Small Business,1,Noida,North,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,1999.0,900,1099.0,2023,4,Apr,2,54.98
+73,2024-04-21,5,5,3,1,0.08,Cancelled,Priya Nair,Consumer,2,Chennai,South,Nikhil Tiwari,USB-C Hub 7-in-1,Electronics,900,1999,1839.08,900,939.08,2024,4,Apr,2,51.06
+74,2024-12-03,7,3,15,7,0.05,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Rohit Das,Planner 2024,Stationery,200,449,2985.85,1400,1585.85,2024,12,Dec,4,53.11
+75,2024-02-06,1,3,9,4,0.0,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Rohit Das,A4 Paper Ream 500,Stationery,250,499,1996.0,1000,996.0,2024,2,Feb,1,49.9
+76,2024-12-30,3,2,7,3,0.0,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Kavya Iyer,Sticky Notes Pack,Stationery,80,199,597.0,240,357.0,2024,12,Dec,4,59.8
+77,2024-07-09,2,4,5,4,0.08,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Simran Kaur,Standing Desk,Furniture,15000,28000,103040.0,60000,43040.0,2024,7,Jul,3,41.77
+78,2023-06-11,9,1,12,4,0.08,Pending,NextGen Retail,Small Business,5,Nagpur,Central,Arjun Mehta,Mechanical Keyboard,Electronics,3500,6999,25756.32,14000,11756.32,2023,6,Jun,2,45.64
+79,2023-07-21,10,2,10,4,0.0,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Kavya Iyer,Webcam HD 1080p,Electronics,2200,4299,17196.0,8800,8396.0,2023,7,Jul,3,48.83
+80,2023-09-27,15,2,7,4,0.2,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Kavya Iyer,Sticky Notes Pack,Stationery,80,199,636.8,320,316.8,2023,9,Sep,3,49.75
+81,2023-09-28,6,4,9,5,0.0,Delivered,Growfast Ventures,Small Business,4,Pune,West,Simran Kaur,A4 Paper Ream 500,Stationery,250,499,2495.0,1250,1245.0,2023,9,Sep,3,49.9
+82,2024-03-31,10,1,1,5,0.2,Cancelled,Amit Kumar,Consumer,3,Kolkata,East,Arjun Mehta,Laptop Pro 15,Electronics,45000,72000,288000.0,225000,63000.0,2024,3,Mar,1,21.88
+83,2024-04-06,3,5,7,7,0.05,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,Sticky Notes Pack,Stationery,80,199,1323.35,560,763.35,2024,4,Apr,2,57.68
+84,2024-12-27,8,5,6,2,0.0,Delivered,Sneha Joshi,Consumer,4,Pune,West,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,13000.0,7000,6000.0,2024,12,Dec,4,46.15
+85,2023-09-09,14,2,10,1,0.0,Delivered,HCL Technologies,Corporate,1,Noida,North,Kavya Iyer,Webcam HD 1080p,Electronics,2200,4299,4299.0,2200,2099.0,2023,9,Sep,3,48.83
+86,2024-12-02,8,1,14,4,0.15,Pending,Sneha Joshi,Consumer,4,Pune,West,Arjun Mehta,File Cabinet 4-draw,Furniture,7500,13500,45900.0,30000,15900.0,2024,12,Dec,4,34.64
+87,2023-10-23,2,2,12,7,0.2,Returned,TechStart Solutions,Small Business,2,Bangalore,South,Kavya Iyer,Mechanical Keyboard,Electronics,3500,6999,39194.4,24500,14694.4,2023,10,Oct,4,37.49
+88,2024-12-25,15,3,9,2,0.0,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Rohit Das,A4 Paper Ream 500,Stationery,250,499,998.0,500,498.0,2024,12,Dec,4,49.9
+89,2024-12-20,6,2,1,1,0.1,Cancelled,Growfast Ventures,Small Business,4,Pune,West,Kavya Iyer,Laptop Pro 15,Electronics,45000,72000,64800.0,45000,19800.0,2024,12,Dec,4,30.56
+90,2023-12-04,7,2,13,6,0.0,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Kavya Iyer,Desk Lamp LED,Furniture,900,1799,10794.0,5400,5394.0,2023,12,Dec,4,49.97
+91,2023-02-22,2,5,4,3,0.15,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Nikhil Tiwari,Office Chair Ergo,Furniture,8000,14500,36975.0,24000,12975.0,2023,2,Feb,1,35.09
+92,2023-08-05,15,5,9,5,0.15,Returned,Divya Reddy,Consumer,2,Hyderabad,South,Nikhil Tiwari,A4 Paper Ream 500,Stationery,250,499,2120.75,1250,870.75,2023,8,Aug,3,41.06
+93,2023-07-07,11,5,4,6,0.2,Cancelled,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Nikhil Tiwari,Office Chair Ergo,Furniture,8000,14500,69600.0,48000,21600.0,2023,7,Jul,3,31.03
+94,2024-01-15,10,3,10,1,0.1,Pending,Amit Kumar,Consumer,3,Kolkata,East,Rohit Das,Webcam HD 1080p,Electronics,2200,4299,3869.1,2200,1669.1,2024,1,Jan,1,43.14
+95,2024-05-07,2,5,3,6,0.1,Cancelled,TechStart Solutions,Small Business,2,Bangalore,South,Nikhil Tiwari,USB-C Hub 7-in-1,Electronics,900,1999,10794.6,5400,5394.6,2024,5,May,2,49.97
+96,2023-02-10,10,1,9,3,0.08,Pending,Amit Kumar,Consumer,3,Kolkata,East,Arjun Mehta,A4 Paper Ream 500,Stationery,250,499,1377.24,750,627.24,2023,2,Feb,1,45.54
+97,2023-06-06,1,4,13,7,0.2,Cancelled,Reliance Industries,Corporate,1,Mumbai,North,Simran Kaur,Desk Lamp LED,Furniture,900,1799,10074.4,6300,3774.4,2023,6,Jun,2,37.47
+98,2023-01-15,8,1,2,1,0.0,Cancelled,Sneha Joshi,Consumer,4,Pune,West,Arjun Mehta,Wireless Mouse,Electronics,350,799,799.0,350,449.0,2023,1,Jan,1,56.2
+99,2023-03-06,1,1,15,6,0.0,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Arjun Mehta,Planner 2024,Stationery,200,449,2694.0,1200,1494.0,2023,3,Mar,1,55.46
+100,2024-06-04,9,5,4,5,0.05,Delivered,NextGen Retail,Small Business,5,Nagpur,Central,Nikhil Tiwari,Office Chair Ergo,Furniture,8000,14500,68875.0,40000,28875.0,2024,6,Jun,2,41.92
+101,2023-12-10,11,4,15,5,0.15,Cancelled,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Simran Kaur,Planner 2024,Stationery,200,449,1908.25,1000,908.25,2023,12,Dec,4,47.6
+102,2023-05-09,6,4,6,2,0.05,Returned,Growfast Ventures,Small Business,4,Pune,West,Simran Kaur,Whiteboard 4x3,Office,3500,6500,12350.0,7000,5350.0,2023,5,May,2,43.32
+103,2024-10-09,7,4,2,6,0.0,Cancelled,Wipro Technologies,Corporate,2,Hyderabad,South,Simran Kaur,Wireless Mouse,Electronics,350,799,4794.0,2100,2694.0,2024,10,Oct,4,56.2
+104,2024-04-16,13,3,15,4,0.0,Delivered,CloudNine Tech,Small Business,1,Noida,North,Rohit Das,Planner 2024,Stationery,200,449,1796.0,800,996.0,2024,4,Apr,2,55.46
+105,2023-03-04,10,5,8,6,0.05,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Nikhil Tiwari,Ballpoint Pens 12pk,Stationery,60,149,849.3,360,489.3,2023,3,Mar,1,57.61
+106,2023-05-19,7,4,8,7,0.0,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Simran Kaur,Ballpoint Pens 12pk,Stationery,60,149,1043.0,420,623.0,2023,5,May,2,59.73
+107,2024-05-13,10,3,1,1,0.0,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Rohit Das,Laptop Pro 15,Electronics,45000,72000,72000.0,45000,27000.0,2024,5,May,2,37.5
+108,2024-08-15,3,2,12,1,0.1,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Kavya Iyer,Mechanical Keyboard,Electronics,3500,6999,6299.1,3500,2799.1,2024,8,Aug,3,44.44
+109,2024-01-27,2,2,3,7,0.0,Cancelled,TechStart Solutions,Small Business,2,Bangalore,South,Kavya Iyer,USB-C Hub 7-in-1,Electronics,900,1999,13993.0,6300,7693.0,2024,1,Jan,1,54.98
+110,2024-11-05,9,3,10,6,0.08,Cancelled,NextGen Retail,Small Business,5,Nagpur,Central,Rohit Das,Webcam HD 1080p,Electronics,2200,4299,23730.48,13200,10530.48,2024,11,Nov,4,44.38
+111,2024-02-23,8,3,9,7,0.0,Delivered,Sneha Joshi,Consumer,4,Pune,West,Rohit Das,A4 Paper Ream 500,Stationery,250,499,3493.0,1750,1743.0,2024,2,Feb,1,49.9
+112,2023-10-16,13,5,5,3,0.0,Returned,CloudNine Tech,Small Business,1,Noida,North,Nikhil Tiwari,Standing Desk,Furniture,15000,28000,84000.0,45000,39000.0,2023,10,Oct,4,46.43
+113,2024-01-14,12,5,6,7,0.0,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,45500.0,24500,21000.0,2024,1,Jan,1,46.15
+114,2024-05-04,10,2,4,5,0.0,Pending,Amit Kumar,Consumer,3,Kolkata,East,Kavya Iyer,Office Chair Ergo,Furniture,8000,14500,72500.0,40000,32500.0,2024,5,May,2,44.83
+115,2023-08-19,7,4,10,7,0.0,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Simran Kaur,Webcam HD 1080p,Electronics,2200,4299,30093.0,15400,14693.0,2023,8,Aug,3,48.83
+116,2023-02-10,9,2,2,1,0.08,Delivered,NextGen Retail,Small Business,5,Nagpur,Central,Kavya Iyer,Wireless Mouse,Electronics,350,799,735.08,350,385.08,2023,2,Feb,1,52.39
+117,2023-01-28,4,4,11,5,0.0,Delivered,Infosys Ltd,Corporate,2,Bangalore,South,Simran Kaur,Monitor 24-inch,Electronics,12000,19999,99995.0,60000,39995.0,2023,1,Jan,1,40.0
+118,2023-05-15,13,4,8,1,0.0,Delivered,CloudNine Tech,Small Business,1,Noida,North,Simran Kaur,Ballpoint Pens 12pk,Stationery,60,149,149.0,60,89.0,2023,5,May,2,59.73
+119,2023-07-20,4,5,11,2,0.2,Cancelled,Infosys Ltd,Corporate,2,Bangalore,South,Nikhil Tiwari,Monitor 24-inch,Electronics,12000,19999,31998.4,24000,7998.4,2023,7,Jul,3,25.0
+120,2023-02-02,1,1,13,4,0.0,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Arjun Mehta,Desk Lamp LED,Furniture,900,1799,7196.0,3600,3596.0,2023,2,Feb,1,49.97
+121,2023-02-17,8,1,6,1,0.0,Cancelled,Sneha Joshi,Consumer,4,Pune,West,Arjun Mehta,Whiteboard 4x3,Office,3500,6500,6500.0,3500,3000.0,2023,2,Feb,1,46.15
+122,2024-05-17,14,3,5,5,0.0,Delivered,HCL Technologies,Corporate,1,Noida,North,Rohit Das,Standing Desk,Furniture,15000,28000,140000.0,75000,65000.0,2024,5,May,2,46.43
+123,2024-02-11,14,5,9,2,0.08,Cancelled,HCL Technologies,Corporate,1,Noida,North,Nikhil Tiwari,A4 Paper Ream 500,Stationery,250,499,918.16,500,418.16,2024,2,Feb,1,45.54
+124,2024-07-27,12,4,1,1,0.0,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Simran Kaur,Laptop Pro 15,Electronics,45000,72000,72000.0,45000,27000.0,2024,7,Jul,3,37.5
+125,2024-12-28,3,1,5,3,0.2,Pending,Rahul Sharma,Consumer,1,Delhi,North,Arjun Mehta,Standing Desk,Furniture,15000,28000,67200.0,45000,22200.0,2024,12,Dec,4,33.04
+126,2023-04-09,7,4,6,7,0.0,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Simran Kaur,Whiteboard 4x3,Office,3500,6500,45500.0,24500,21000.0,2023,4,Apr,2,46.15
+127,2024-11-14,15,1,5,4,0.0,Returned,Divya Reddy,Consumer,2,Hyderabad,South,Arjun Mehta,Standing Desk,Furniture,15000,28000,112000.0,60000,52000.0,2024,11,Nov,4,46.43
+128,2024-12-26,12,1,6,1,0.15,Pending,Meera Singh,Consumer,5,Bhopal,Central,Arjun Mehta,Whiteboard 4x3,Office,3500,6500,5525.0,3500,2025.0,2024,12,Dec,4,36.65
+129,2024-06-30,2,1,6,2,0.0,Cancelled,TechStart Solutions,Small Business,2,Bangalore,South,Arjun Mehta,Whiteboard 4x3,Office,3500,6500,13000.0,7000,6000.0,2024,6,Jun,2,46.15
+130,2024-09-04,2,5,7,3,0.0,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Nikhil Tiwari,Sticky Notes Pack,Stationery,80,199,597.0,240,357.0,2024,9,Sep,3,59.8
+131,2024-04-06,7,2,4,6,0.0,Cancelled,Wipro Technologies,Corporate,2,Hyderabad,South,Kavya Iyer,Office Chair Ergo,Furniture,8000,14500,87000.0,48000,39000.0,2024,4,Apr,2,44.83
+132,2024-10-04,15,4,14,2,0.08,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Simran Kaur,File Cabinet 4-draw,Furniture,7500,13500,24840.0,15000,9840.0,2024,10,Oct,4,39.61
+133,2023-01-05,6,5,11,7,0.05,Delivered,Growfast Ventures,Small Business,4,Pune,West,Nikhil Tiwari,Monitor 24-inch,Electronics,12000,19999,132993.35,84000,48993.35,2023,1,Jan,1,36.84
+134,2023-08-06,3,5,14,2,0.05,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,25650.0,15000,10650.0,2023,8,Aug,3,41.52
+135,2024-05-17,9,5,14,3,0.0,Delivered,NextGen Retail,Small Business,5,Nagpur,Central,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,40500.0,22500,18000.0,2024,5,May,2,44.44
+136,2024-02-02,10,5,14,2,0.1,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,24300.0,15000,9300.0,2024,2,Feb,1,38.27
+137,2024-01-28,15,5,15,3,0.1,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Nikhil Tiwari,Planner 2024,Stationery,200,449,1212.3,600,612.3,2024,1,Jan,1,50.51
+138,2023-07-26,14,3,8,1,0.0,Cancelled,HCL Technologies,Corporate,1,Noida,North,Rohit Das,Ballpoint Pens 12pk,Stationery,60,149,149.0,60,89.0,2023,7,Jul,3,59.73
+139,2023-01-15,13,4,7,3,0.05,Returned,CloudNine Tech,Small Business,1,Noida,North,Simran Kaur,Sticky Notes Pack,Stationery,80,199,567.15,240,327.15,2023,1,Jan,1,57.68
+140,2024-07-07,6,5,9,3,0.0,Delivered,Growfast Ventures,Small Business,4,Pune,West,Nikhil Tiwari,A4 Paper Ream 500,Stationery,250,499,1497.0,750,747.0,2024,7,Jul,3,49.9
+141,2024-04-05,10,4,7,4,0.08,Pending,Amit Kumar,Consumer,3,Kolkata,East,Simran Kaur,Sticky Notes Pack,Stationery,80,199,732.32,320,412.32,2024,4,Apr,2,56.3
+142,2024-11-21,10,3,3,3,0.05,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,5697.15,2700,2997.15,2024,11,Nov,4,52.61
+143,2024-07-28,6,3,3,3,0.0,Returned,Growfast Ventures,Small Business,4,Pune,West,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,5997.0,2700,3297.0,2024,7,Jul,3,54.98
+144,2023-08-29,1,4,15,6,0.0,Cancelled,Reliance Industries,Corporate,1,Mumbai,North,Simran Kaur,Planner 2024,Stationery,200,449,2694.0,1200,1494.0,2023,8,Aug,3,55.46
+145,2024-07-17,4,1,8,1,0.0,Cancelled,Infosys Ltd,Corporate,2,Bangalore,South,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,149.0,60,89.0,2024,7,Jul,3,59.73
+146,2023-04-06,10,2,5,7,0.08,Pending,Amit Kumar,Consumer,3,Kolkata,East,Kavya Iyer,Standing Desk,Furniture,15000,28000,180320.0,105000,75320.0,2023,4,Apr,2,41.77
+147,2024-04-29,6,1,4,4,0.0,Delivered,Growfast Ventures,Small Business,4,Pune,West,Arjun Mehta,Office Chair Ergo,Furniture,8000,14500,58000.0,32000,26000.0,2024,4,Apr,2,44.83
+148,2024-02-11,15,1,8,6,0.0,Cancelled,Divya Reddy,Consumer,2,Hyderabad,South,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,894.0,360,534.0,2024,2,Feb,1,59.73
+149,2023-08-19,6,1,15,5,0.0,Returned,Growfast Ventures,Small Business,4,Pune,West,Arjun Mehta,Planner 2024,Stationery,200,449,2245.0,1000,1245.0,2023,8,Aug,3,55.46
+150,2024-10-16,11,5,6,1,0.15,Delivered,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,5525.0,3500,2025.0,2024,10,Oct,4,36.65
+151,2023-06-20,12,3,2,1,0.0,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Rohit Das,Wireless Mouse,Electronics,350,799,799.0,350,449.0,2023,6,Jun,2,56.2
+152,2024-06-24,5,1,4,5,0.15,Delivered,Priya Nair,Consumer,2,Chennai,South,Arjun Mehta,Office Chair Ergo,Furniture,8000,14500,61625.0,40000,21625.0,2024,6,Jun,2,35.09
+153,2023-02-05,1,3,12,7,0.05,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Rohit Das,Mechanical Keyboard,Electronics,3500,6999,46543.35,24500,22043.35,2023,2,Feb,1,47.36
+154,2024-06-08,8,4,11,3,0.1,Delivered,Sneha Joshi,Consumer,4,Pune,West,Simran Kaur,Monitor 24-inch,Electronics,12000,19999,53997.3,36000,17997.3,2024,6,Jun,2,33.33
+155,2023-06-09,5,2,4,6,0.2,Pending,Priya Nair,Consumer,2,Chennai,South,Kavya Iyer,Office Chair Ergo,Furniture,8000,14500,69600.0,48000,21600.0,2023,6,Jun,2,31.03
+156,2024-11-29,12,4,15,2,0.2,Cancelled,Meera Singh,Consumer,5,Bhopal,Central,Simran Kaur,Planner 2024,Stationery,200,449,718.4,400,318.4,2024,11,Nov,4,44.32
+157,2023-08-31,12,4,6,4,0.0,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Simran Kaur,Whiteboard 4x3,Office,3500,6500,26000.0,14000,12000.0,2023,8,Aug,3,46.15
+158,2023-03-27,12,5,6,2,0.2,Returned,Meera Singh,Consumer,5,Bhopal,Central,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,10400.0,7000,3400.0,2023,3,Mar,1,32.69
+159,2024-07-31,5,2,1,5,0.15,Delivered,Priya Nair,Consumer,2,Chennai,South,Kavya Iyer,Laptop Pro 15,Electronics,45000,72000,306000.0,225000,81000.0,2024,7,Jul,3,26.47
+160,2024-11-12,7,4,14,1,0.08,Returned,Wipro Technologies,Corporate,2,Hyderabad,South,Simran Kaur,File Cabinet 4-draw,Furniture,7500,13500,12420.0,7500,4920.0,2024,11,Nov,4,39.61
+161,2024-07-10,4,4,8,7,0.0,Delivered,Infosys Ltd,Corporate,2,Bangalore,South,Simran Kaur,Ballpoint Pens 12pk,Stationery,60,149,1043.0,420,623.0,2024,7,Jul,3,59.73
+162,2024-07-27,6,2,6,1,0.15,Delivered,Growfast Ventures,Small Business,4,Pune,West,Kavya Iyer,Whiteboard 4x3,Office,3500,6500,5525.0,3500,2025.0,2024,7,Jul,3,36.65
+163,2024-10-07,13,2,3,4,0.08,Delivered,CloudNine Tech,Small Business,1,Noida,North,Kavya Iyer,USB-C Hub 7-in-1,Electronics,900,1999,7356.32,3600,3756.32,2024,10,Oct,4,51.06
+164,2023-01-28,4,4,14,1,0.1,Pending,Infosys Ltd,Corporate,2,Bangalore,South,Simran Kaur,File Cabinet 4-draw,Furniture,7500,13500,12150.0,7500,4650.0,2023,1,Jan,1,38.27
+165,2024-09-11,14,2,9,1,0.2,Pending,HCL Technologies,Corporate,1,Noida,North,Kavya Iyer,A4 Paper Ream 500,Stationery,250,499,399.2,250,149.2,2024,9,Sep,3,37.37
+166,2024-07-09,15,4,2,4,0.1,Returned,Divya Reddy,Consumer,2,Hyderabad,South,Simran Kaur,Wireless Mouse,Electronics,350,799,2876.4,1400,1476.4,2024,7,Jul,3,51.33
+167,2023-12-06,3,4,15,6,0.2,Cancelled,Rahul Sharma,Consumer,1,Delhi,North,Simran Kaur,Planner 2024,Stationery,200,449,2155.2,1200,955.2,2023,12,Dec,4,44.32
+168,2023-11-27,7,5,11,6,0.0,Cancelled,Wipro Technologies,Corporate,2,Hyderabad,South,Nikhil Tiwari,Monitor 24-inch,Electronics,12000,19999,119994.0,72000,47994.0,2023,11,Nov,4,40.0
+169,2024-10-01,8,1,8,4,0.0,Returned,Sneha Joshi,Consumer,4,Pune,West,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,596.0,240,356.0,2024,10,Oct,4,59.73
+170,2024-05-20,4,4,10,7,0.0,Pending,Infosys Ltd,Corporate,2,Bangalore,South,Simran Kaur,Webcam HD 1080p,Electronics,2200,4299,30093.0,15400,14693.0,2024,5,May,2,48.83
+171,2023-12-14,13,3,3,5,0.05,Pending,CloudNine Tech,Small Business,1,Noida,North,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,9495.25,4500,4995.25,2023,12,Dec,4,52.61
+172,2024-04-17,2,1,13,1,0.15,Pending,TechStart Solutions,Small Business,2,Bangalore,South,Arjun Mehta,Desk Lamp LED,Furniture,900,1799,1529.15,900,629.15,2024,4,Apr,2,41.14
+173,2023-08-19,12,1,12,7,0.0,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Arjun Mehta,Mechanical Keyboard,Electronics,3500,6999,48993.0,24500,24493.0,2023,8,Aug,3,49.99
+174,2023-07-09,10,1,5,1,0.0,Pending,Amit Kumar,Consumer,3,Kolkata,East,Arjun Mehta,Standing Desk,Furniture,15000,28000,28000.0,15000,13000.0,2023,7,Jul,3,46.43
+175,2023-08-13,14,5,6,5,0.0,Delivered,HCL Technologies,Corporate,1,Noida,North,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,32500.0,17500,15000.0,2023,8,Aug,3,46.15
+176,2024-01-20,3,4,10,6,0.08,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Simran Kaur,Webcam HD 1080p,Electronics,2200,4299,23730.48,13200,10530.48,2024,1,Jan,1,44.38
+177,2024-01-12,1,5,6,7,0.0,Pending,Reliance Industries,Corporate,1,Mumbai,North,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,45500.0,24500,21000.0,2024,1,Jan,1,46.15
+178,2023-10-10,8,4,4,3,0.15,Returned,Sneha Joshi,Consumer,4,Pune,West,Simran Kaur,Office Chair Ergo,Furniture,8000,14500,36975.0,24000,12975.0,2023,10,Oct,4,35.09
+179,2024-09-24,15,5,3,3,0.2,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Nikhil Tiwari,USB-C Hub 7-in-1,Electronics,900,1999,4797.6,2700,2097.6,2024,9,Sep,3,43.72
+180,2024-09-19,3,5,4,3,0.0,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,Office Chair Ergo,Furniture,8000,14500,43500.0,24000,19500.0,2024,9,Sep,3,44.83
+181,2023-09-16,12,3,1,6,0.2,Returned,Meera Singh,Consumer,5,Bhopal,Central,Rohit Das,Laptop Pro 15,Electronics,45000,72000,345600.0,270000,75600.0,2023,9,Sep,3,21.88
+182,2023-12-25,10,5,4,6,0.15,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Nikhil Tiwari,Office Chair Ergo,Furniture,8000,14500,73950.0,48000,25950.0,2023,12,Dec,4,35.09
+183,2024-12-10,7,2,1,5,0.0,Returned,Wipro Technologies,Corporate,2,Hyderabad,South,Kavya Iyer,Laptop Pro 15,Electronics,45000,72000,360000.0,225000,135000.0,2024,12,Dec,4,37.5
+184,2024-03-31,10,3,12,1,0.15,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Rohit Das,Mechanical Keyboard,Electronics,3500,6999,5949.15,3500,2449.15,2024,3,Mar,1,41.17
+185,2024-02-15,5,5,15,5,0.0,Delivered,Priya Nair,Consumer,2,Chennai,South,Nikhil Tiwari,Planner 2024,Stationery,200,449,2245.0,1000,1245.0,2024,2,Feb,1,55.46
+186,2024-10-10,10,1,1,5,0.08,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Arjun Mehta,Laptop Pro 15,Electronics,45000,72000,331200.0,225000,106200.0,2024,10,Oct,4,32.07
+187,2023-11-14,5,2,10,6,0.1,Delivered,Priya Nair,Consumer,2,Chennai,South,Kavya Iyer,Webcam HD 1080p,Electronics,2200,4299,23214.6,13200,10014.6,2023,11,Nov,4,43.14
+188,2024-11-07,14,2,14,3,0.0,Returned,HCL Technologies,Corporate,1,Noida,North,Kavya Iyer,File Cabinet 4-draw,Furniture,7500,13500,40500.0,22500,18000.0,2024,11,Nov,4,44.44
+189,2023-08-13,7,2,6,2,0.15,Cancelled,Wipro Technologies,Corporate,2,Hyderabad,South,Kavya Iyer,Whiteboard 4x3,Office,3500,6500,11050.0,7000,4050.0,2023,8,Aug,3,36.65
+190,2023-08-22,15,3,5,1,0.1,Pending,Divya Reddy,Consumer,2,Hyderabad,South,Rohit Das,Standing Desk,Furniture,15000,28000,25200.0,15000,10200.0,2023,8,Aug,3,40.48
+191,2024-11-14,9,5,14,6,0.15,Pending,NextGen Retail,Small Business,5,Nagpur,Central,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,68850.0,45000,23850.0,2024,11,Nov,4,34.64
+192,2024-10-25,12,5,11,3,0.08,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Nikhil Tiwari,Monitor 24-inch,Electronics,12000,19999,55197.24,36000,19197.24,2024,10,Oct,4,34.78
+193,2024-01-09,5,1,15,7,0.15,Delivered,Priya Nair,Consumer,2,Chennai,South,Arjun Mehta,Planner 2024,Stationery,200,449,2671.55,1400,1271.55,2024,1,Jan,1,47.6
+194,2024-11-02,1,1,4,2,0.0,Pending,Reliance Industries,Corporate,1,Mumbai,North,Arjun Mehta,Office Chair Ergo,Furniture,8000,14500,29000.0,16000,13000.0,2024,11,Nov,4,44.83
+195,2024-08-30,10,2,13,2,0.0,Cancelled,Amit Kumar,Consumer,3,Kolkata,East,Kavya Iyer,Desk Lamp LED,Furniture,900,1799,3598.0,1800,1798.0,2024,8,Aug,3,49.97
+196,2024-04-16,10,1,11,6,0.2,Pending,Amit Kumar,Consumer,3,Kolkata,East,Arjun Mehta,Monitor 24-inch,Electronics,12000,19999,95995.2,72000,23995.2,2024,4,Apr,2,25.0
+197,2023-08-21,1,3,3,4,0.2,Cancelled,Reliance Industries,Corporate,1,Mumbai,North,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,6396.8,3600,2796.8,2023,8,Aug,3,43.72
+198,2024-11-22,15,5,1,1,0.0,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Nikhil Tiwari,Laptop Pro 15,Electronics,45000,72000,72000.0,45000,27000.0,2024,11,Nov,4,37.5
+199,2023-04-23,2,2,6,2,0.0,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Kavya Iyer,Whiteboard 4x3,Office,3500,6500,13000.0,7000,6000.0,2023,4,Apr,2,46.15
+200,2024-05-11,14,1,2,6,0.15,Returned,HCL Technologies,Corporate,1,Noida,North,Arjun Mehta,Wireless Mouse,Electronics,350,799,4074.9,2100,1974.9,2024,5,May,2,48.46
+201,2024-03-17,6,3,8,6,0.08,Delivered,Growfast Ventures,Small Business,4,Pune,West,Rohit Das,Ballpoint Pens 12pk,Stationery,60,149,822.48,360,462.48,2024,3,Mar,1,56.23
+202,2024-07-17,9,3,10,3,0.0,Delivered,NextGen Retail,Small Business,5,Nagpur,Central,Rohit Das,Webcam HD 1080p,Electronics,2200,4299,12897.0,6600,6297.0,2024,7,Jul,3,48.83
+203,2023-09-25,8,1,5,7,0.15,Delivered,Sneha Joshi,Consumer,4,Pune,West,Arjun Mehta,Standing Desk,Furniture,15000,28000,166600.0,105000,61600.0,2023,9,Sep,3,36.97
+204,2024-05-24,13,5,7,4,0.1,Delivered,CloudNine Tech,Small Business,1,Noida,North,Nikhil Tiwari,Sticky Notes Pack,Stationery,80,199,716.4,320,396.4,2024,5,May,2,55.33
+205,2024-01-21,5,1,10,1,0.05,Delivered,Priya Nair,Consumer,2,Chennai,South,Arjun Mehta,Webcam HD 1080p,Electronics,2200,4299,4084.05,2200,1884.05,2024,1,Jan,1,46.13
+206,2024-01-22,1,2,12,5,0.15,Returned,Reliance Industries,Corporate,1,Mumbai,North,Kavya Iyer,Mechanical Keyboard,Electronics,3500,6999,29745.75,17500,12245.75,2024,1,Jan,1,41.17
+207,2023-04-23,13,1,2,7,0.0,Delivered,CloudNine Tech,Small Business,1,Noida,North,Arjun Mehta,Wireless Mouse,Electronics,350,799,5593.0,2450,3143.0,2023,4,Apr,2,56.2
+208,2024-09-04,7,3,13,7,0.0,Cancelled,Wipro Technologies,Corporate,2,Hyderabad,South,Rohit Das,Desk Lamp LED,Furniture,900,1799,12593.0,6300,6293.0,2024,9,Sep,3,49.97
+209,2024-09-16,15,1,8,3,0.0,Pending,Divya Reddy,Consumer,2,Hyderabad,South,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,447.0,180,267.0,2024,9,Sep,3,59.73
+210,2023-03-22,5,5,2,2,0.0,Delivered,Priya Nair,Consumer,2,Chennai,South,Nikhil Tiwari,Wireless Mouse,Electronics,350,799,1598.0,700,898.0,2023,3,Mar,1,56.2
+211,2024-11-29,6,4,4,2,0.15,Delivered,Growfast Ventures,Small Business,4,Pune,West,Simran Kaur,Office Chair Ergo,Furniture,8000,14500,24650.0,16000,8650.0,2024,11,Nov,4,35.09
+212,2023-04-23,13,1,1,3,0.0,Cancelled,CloudNine Tech,Small Business,1,Noida,North,Arjun Mehta,Laptop Pro 15,Electronics,45000,72000,216000.0,135000,81000.0,2023,4,Apr,2,37.5
+213,2023-01-02,7,5,15,6,0.1,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Nikhil Tiwari,Planner 2024,Stationery,200,449,2424.6,1200,1224.6,2023,1,Jan,1,50.51
+214,2024-10-03,3,5,5,2,0.15,Cancelled,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,Standing Desk,Furniture,15000,28000,47600.0,30000,17600.0,2024,10,Oct,4,36.97
+215,2023-08-08,12,3,9,4,0.2,Cancelled,Meera Singh,Consumer,5,Bhopal,Central,Rohit Das,A4 Paper Ream 500,Stationery,250,499,1596.8,1000,596.8,2023,8,Aug,3,37.37
+216,2024-07-19,10,5,1,1,0.0,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Nikhil Tiwari,Laptop Pro 15,Electronics,45000,72000,72000.0,45000,27000.0,2024,7,Jul,3,37.5
+217,2023-08-13,3,5,9,7,0.05,Pending,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,A4 Paper Ream 500,Stationery,250,499,3318.35,1750,1568.35,2023,8,Aug,3,47.26
+218,2024-01-20,5,5,11,7,0.05,Delivered,Priya Nair,Consumer,2,Chennai,South,Nikhil Tiwari,Monitor 24-inch,Electronics,12000,19999,132993.35,84000,48993.35,2024,1,Jan,1,36.84
+219,2024-02-07,6,5,15,4,0.08,Returned,Growfast Ventures,Small Business,4,Pune,West,Nikhil Tiwari,Planner 2024,Stationery,200,449,1652.32,800,852.32,2024,2,Feb,1,51.58
+220,2024-09-29,9,2,8,2,0.0,Pending,NextGen Retail,Small Business,5,Nagpur,Central,Kavya Iyer,Ballpoint Pens 12pk,Stationery,60,149,298.0,120,178.0,2024,9,Sep,3,59.73
+221,2023-05-10,13,2,6,7,0.0,Returned,CloudNine Tech,Small Business,1,Noida,North,Kavya Iyer,Whiteboard 4x3,Office,3500,6500,45500.0,24500,21000.0,2023,5,May,2,46.15
+222,2023-02-22,14,3,7,5,0.08,Delivered,HCL Technologies,Corporate,1,Noida,North,Rohit Das,Sticky Notes Pack,Stationery,80,199,915.4,400,515.4,2023,2,Feb,1,56.3
+223,2024-11-14,12,1,3,1,0.0,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Arjun Mehta,USB-C Hub 7-in-1,Electronics,900,1999,1999.0,900,1099.0,2024,11,Nov,4,54.98
+224,2024-12-30,5,5,14,1,0.2,Delivered,Priya Nair,Consumer,2,Chennai,South,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,10800.0,7500,3300.0,2024,12,Dec,4,30.56
+225,2024-11-02,15,1,15,7,0.0,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Arjun Mehta,Planner 2024,Stationery,200,449,3143.0,1400,1743.0,2024,11,Nov,4,55.46
+226,2024-12-10,1,1,1,3,0.15,Returned,Reliance Industries,Corporate,1,Mumbai,North,Arjun Mehta,Laptop Pro 15,Electronics,45000,72000,183600.0,135000,48600.0,2024,12,Dec,4,26.47
+227,2024-02-20,14,3,5,7,0.15,Pending,HCL Technologies,Corporate,1,Noida,North,Rohit Das,Standing Desk,Furniture,15000,28000,166600.0,105000,61600.0,2024,2,Feb,1,36.97
+228,2023-09-04,14,5,14,3,0.05,Pending,HCL Technologies,Corporate,1,Noida,North,Nikhil Tiwari,File Cabinet 4-draw,Furniture,7500,13500,38475.0,22500,15975.0,2023,9,Sep,3,41.52
+229,2024-03-14,14,5,12,7,0.15,Cancelled,HCL Technologies,Corporate,1,Noida,North,Nikhil Tiwari,Mechanical Keyboard,Electronics,3500,6999,41644.05,24500,17144.05,2024,3,Mar,1,41.17
+230,2023-07-22,4,4,12,5,0.15,Cancelled,Infosys Ltd,Corporate,2,Bangalore,South,Simran Kaur,Mechanical Keyboard,Electronics,3500,6999,29745.75,17500,12245.75,2023,7,Jul,3,41.17
+231,2023-07-03,5,1,2,6,0.2,Cancelled,Priya Nair,Consumer,2,Chennai,South,Arjun Mehta,Wireless Mouse,Electronics,350,799,3835.2,2100,1735.2,2023,7,Jul,3,45.24
+232,2023-05-03,12,1,14,1,0.0,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Arjun Mehta,File Cabinet 4-draw,Furniture,7500,13500,13500.0,7500,6000.0,2023,5,May,2,44.44
+233,2024-02-05,10,2,5,7,0.05,Pending,Amit Kumar,Consumer,3,Kolkata,East,Kavya Iyer,Standing Desk,Furniture,15000,28000,186200.0,105000,81200.0,2024,2,Feb,1,43.61
+234,2023-10-21,10,4,8,5,0.08,Returned,Amit Kumar,Consumer,3,Kolkata,East,Simran Kaur,Ballpoint Pens 12pk,Stationery,60,149,685.4,300,385.4,2023,10,Oct,4,56.23
+235,2023-10-07,5,2,11,3,0.1,Delivered,Priya Nair,Consumer,2,Chennai,South,Kavya Iyer,Monitor 24-inch,Electronics,12000,19999,53997.3,36000,17997.3,2023,10,Oct,4,33.33
+236,2024-09-01,7,2,9,3,0.0,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Kavya Iyer,A4 Paper Ream 500,Stationery,250,499,1497.0,750,747.0,2024,9,Sep,3,49.9
+237,2023-07-17,4,2,2,1,0.08,Cancelled,Infosys Ltd,Corporate,2,Bangalore,South,Kavya Iyer,Wireless Mouse,Electronics,350,799,735.08,350,385.08,2023,7,Jul,3,52.39
+238,2024-05-25,1,3,12,4,0.0,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Rohit Das,Mechanical Keyboard,Electronics,3500,6999,27996.0,14000,13996.0,2024,5,May,2,49.99
+239,2023-05-24,14,3,3,7,0.0,Delivered,HCL Technologies,Corporate,1,Noida,North,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,13993.0,6300,7693.0,2023,5,May,2,54.98
+240,2024-08-31,14,2,3,2,0.2,Delivered,HCL Technologies,Corporate,1,Noida,North,Kavya Iyer,USB-C Hub 7-in-1,Electronics,900,1999,3198.4,1800,1398.4,2024,8,Aug,3,43.72
+241,2023-07-20,5,4,1,3,0.08,Delivered,Priya Nair,Consumer,2,Chennai,South,Simran Kaur,Laptop Pro 15,Electronics,45000,72000,198720.0,135000,63720.0,2023,7,Jul,3,32.07
+242,2023-05-04,7,1,8,6,0.0,Pending,Wipro Technologies,Corporate,2,Hyderabad,South,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,894.0,360,534.0,2023,5,May,2,59.73
+243,2023-07-06,10,4,6,6,0.05,Returned,Amit Kumar,Consumer,3,Kolkata,East,Simran Kaur,Whiteboard 4x3,Office,3500,6500,37050.0,21000,16050.0,2023,7,Jul,3,43.32
+244,2023-11-22,10,5,12,3,0.1,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Nikhil Tiwari,Mechanical Keyboard,Electronics,3500,6999,18897.3,10500,8397.3,2023,11,Nov,4,44.44
+245,2024-04-08,6,3,13,4,0.0,Cancelled,Growfast Ventures,Small Business,4,Pune,West,Rohit Das,Desk Lamp LED,Furniture,900,1799,7196.0,3600,3596.0,2024,4,Apr,2,49.97
+246,2023-12-15,5,1,8,4,0.15,Delivered,Priya Nair,Consumer,2,Chennai,South,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,506.6,240,266.6,2023,12,Dec,4,52.63
+247,2024-10-21,4,1,11,5,0.0,Delivered,Infosys Ltd,Corporate,2,Bangalore,South,Arjun Mehta,Monitor 24-inch,Electronics,12000,19999,99995.0,60000,39995.0,2024,10,Oct,4,40.0
+248,2024-02-07,2,5,9,6,0.0,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Nikhil Tiwari,A4 Paper Ream 500,Stationery,250,499,2994.0,1500,1494.0,2024,2,Feb,1,49.9
+249,2023-12-12,4,5,5,5,0.0,Pending,Infosys Ltd,Corporate,2,Bangalore,South,Nikhil Tiwari,Standing Desk,Furniture,15000,28000,140000.0,75000,65000.0,2023,12,Dec,4,46.43
+250,2024-05-25,15,2,14,6,0.1,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Kavya Iyer,File Cabinet 4-draw,Furniture,7500,13500,72900.0,45000,27900.0,2024,5,May,2,38.27
+251,2023-05-27,10,3,12,7,0.0,Pending,Amit Kumar,Consumer,3,Kolkata,East,Rohit Das,Mechanical Keyboard,Electronics,3500,6999,48993.0,24500,24493.0,2023,5,May,2,49.99
+252,2023-05-28,10,3,14,7,0.15,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Rohit Das,File Cabinet 4-draw,Furniture,7500,13500,80325.0,52500,27825.0,2023,5,May,2,34.64
+253,2024-12-11,3,4,3,2,0.08,Pending,Rahul Sharma,Consumer,1,Delhi,North,Simran Kaur,USB-C Hub 7-in-1,Electronics,900,1999,3678.16,1800,1878.16,2024,12,Dec,4,51.06
+254,2024-05-03,10,2,5,7,0.08,Returned,Amit Kumar,Consumer,3,Kolkata,East,Kavya Iyer,Standing Desk,Furniture,15000,28000,180320.0,105000,75320.0,2024,5,May,2,41.77
+255,2024-10-01,1,2,5,2,0.0,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Kavya Iyer,Standing Desk,Furniture,15000,28000,56000.0,30000,26000.0,2024,10,Oct,4,46.43
+256,2024-07-04,8,2,5,7,0.2,Delivered,Sneha Joshi,Consumer,4,Pune,West,Kavya Iyer,Standing Desk,Furniture,15000,28000,156800.0,105000,51800.0,2024,7,Jul,3,33.04
+257,2023-12-04,5,2,3,1,0.2,Cancelled,Priya Nair,Consumer,2,Chennai,South,Kavya Iyer,USB-C Hub 7-in-1,Electronics,900,1999,1599.2,900,699.2,2023,12,Dec,4,43.72
+258,2024-10-02,13,3,11,7,0.0,Cancelled,CloudNine Tech,Small Business,1,Noida,North,Rohit Das,Monitor 24-inch,Electronics,12000,19999,139993.0,84000,55993.0,2024,10,Oct,4,40.0
+259,2024-04-17,4,3,14,5,0.0,Delivered,Infosys Ltd,Corporate,2,Bangalore,South,Rohit Das,File Cabinet 4-draw,Furniture,7500,13500,67500.0,37500,30000.0,2024,4,Apr,2,44.44
+260,2023-05-31,8,2,10,3,0.15,Returned,Sneha Joshi,Consumer,4,Pune,West,Kavya Iyer,Webcam HD 1080p,Electronics,2200,4299,10962.45,6600,4362.45,2023,5,May,2,39.79
+261,2024-02-19,7,4,14,5,0.1,Delivered,Wipro Technologies,Corporate,2,Hyderabad,South,Simran Kaur,File Cabinet 4-draw,Furniture,7500,13500,60750.0,37500,23250.0,2024,2,Feb,1,38.27
+262,2023-10-25,2,1,4,3,0.05,Pending,TechStart Solutions,Small Business,2,Bangalore,South,Arjun Mehta,Office Chair Ergo,Furniture,8000,14500,41325.0,24000,17325.0,2023,10,Oct,4,41.92
+263,2024-09-02,1,1,9,4,0.08,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Arjun Mehta,A4 Paper Ream 500,Stationery,250,499,1836.32,1000,836.32,2024,9,Sep,3,45.54
+264,2023-09-20,12,4,13,5,0.1,Cancelled,Meera Singh,Consumer,5,Bhopal,Central,Simran Kaur,Desk Lamp LED,Furniture,900,1799,8095.5,4500,3595.5,2023,9,Sep,3,44.41
+265,2023-05-24,11,2,10,4,0.0,Pending,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Kavya Iyer,Webcam HD 1080p,Electronics,2200,4299,17196.0,8800,8396.0,2023,5,May,2,48.83
+266,2023-12-12,4,3,9,2,0.08,Cancelled,Infosys Ltd,Corporate,2,Bangalore,South,Rohit Das,A4 Paper Ream 500,Stationery,250,499,918.16,500,418.16,2023,12,Dec,4,45.54
+267,2024-09-15,8,1,2,2,0.1,Pending,Sneha Joshi,Consumer,4,Pune,West,Arjun Mehta,Wireless Mouse,Electronics,350,799,1438.2,700,738.2,2024,9,Sep,3,51.33
+268,2024-07-25,12,5,8,1,0.08,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Nikhil Tiwari,Ballpoint Pens 12pk,Stationery,60,149,137.08,60,77.08,2024,7,Jul,3,56.23
+269,2023-01-02,2,5,8,7,0.05,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Nikhil Tiwari,Ballpoint Pens 12pk,Stationery,60,149,990.85,420,570.85,2023,1,Jan,1,57.61
+270,2023-10-31,3,4,7,5,0.0,Pending,Rahul Sharma,Consumer,1,Delhi,North,Simran Kaur,Sticky Notes Pack,Stationery,80,199,995.0,400,595.0,2023,10,Oct,4,59.8
+271,2023-09-11,12,2,8,4,0.2,Returned,Meera Singh,Consumer,5,Bhopal,Central,Kavya Iyer,Ballpoint Pens 12pk,Stationery,60,149,476.8,240,236.8,2023,9,Sep,3,49.66
+272,2024-10-13,1,1,14,3,0.2,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Arjun Mehta,File Cabinet 4-draw,Furniture,7500,13500,32400.0,22500,9900.0,2024,10,Oct,4,30.56
+273,2024-03-28,1,2,3,2,0.05,Returned,Reliance Industries,Corporate,1,Mumbai,North,Kavya Iyer,USB-C Hub 7-in-1,Electronics,900,1999,3798.1,1800,1998.1,2024,3,Mar,1,52.61
+274,2023-02-06,13,1,13,7,0.15,Returned,CloudNine Tech,Small Business,1,Noida,North,Arjun Mehta,Desk Lamp LED,Furniture,900,1799,10704.05,6300,4404.05,2023,2,Feb,1,41.14
+275,2023-06-09,3,4,6,2,0.0,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Simran Kaur,Whiteboard 4x3,Office,3500,6500,13000.0,7000,6000.0,2023,6,Jun,2,46.15
+276,2023-01-09,11,4,1,3,0.0,Returned,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Simran Kaur,Laptop Pro 15,Electronics,45000,72000,216000.0,135000,81000.0,2023,1,Jan,1,37.5
+277,2023-08-21,5,5,7,7,0.1,Pending,Priya Nair,Consumer,2,Chennai,South,Nikhil Tiwari,Sticky Notes Pack,Stationery,80,199,1253.7,560,693.7,2023,8,Aug,3,55.33
+278,2023-04-09,12,2,15,7,0.0,Pending,Meera Singh,Consumer,5,Bhopal,Central,Kavya Iyer,Planner 2024,Stationery,200,449,3143.0,1400,1743.0,2023,4,Apr,2,55.46
+279,2024-10-20,3,5,15,4,0.15,Pending,Rahul Sharma,Consumer,1,Delhi,North,Nikhil Tiwari,Planner 2024,Stationery,200,449,1526.6,800,726.6,2024,10,Oct,4,47.6
+280,2023-07-27,1,2,1,4,0.15,Delivered,Reliance Industries,Corporate,1,Mumbai,North,Kavya Iyer,Laptop Pro 15,Electronics,45000,72000,244800.0,180000,64800.0,2023,7,Jul,3,26.47
+281,2023-05-11,1,5,9,5,0.05,Returned,Reliance Industries,Corporate,1,Mumbai,North,Nikhil Tiwari,A4 Paper Ream 500,Stationery,250,499,2370.25,1250,1120.25,2023,5,May,2,47.26
+282,2024-02-08,8,3,1,5,0.08,Delivered,Sneha Joshi,Consumer,4,Pune,West,Rohit Das,Laptop Pro 15,Electronics,45000,72000,331200.0,225000,106200.0,2024,2,Feb,1,32.07
+283,2023-06-01,10,3,1,6,0.0,Pending,Amit Kumar,Consumer,3,Kolkata,East,Rohit Das,Laptop Pro 15,Electronics,45000,72000,432000.0,270000,162000.0,2023,6,Jun,2,37.5
+284,2023-02-23,11,3,15,6,0.1,Returned,Zomato Pvt Ltd,Corporate,1,Gurgaon,North,Rohit Das,Planner 2024,Stationery,200,449,2424.6,1200,1224.6,2023,2,Feb,1,50.51
+285,2023-04-30,12,3,7,1,0.0,Returned,Meera Singh,Consumer,5,Bhopal,Central,Rohit Das,Sticky Notes Pack,Stationery,80,199,199.0,80,119.0,2023,4,Apr,2,59.8
+286,2024-11-03,13,1,2,2,0.0,Cancelled,CloudNine Tech,Small Business,1,Noida,North,Arjun Mehta,Wireless Mouse,Electronics,350,799,1598.0,700,898.0,2024,11,Nov,4,56.2
+287,2024-09-19,13,3,14,5,0.08,Cancelled,CloudNine Tech,Small Business,1,Noida,North,Rohit Das,File Cabinet 4-draw,Furniture,7500,13500,62100.0,37500,24600.0,2024,9,Sep,3,39.61
+288,2024-08-09,12,4,5,4,0.1,Delivered,Meera Singh,Consumer,5,Bhopal,Central,Simran Kaur,Standing Desk,Furniture,15000,28000,100800.0,60000,40800.0,2024,8,Aug,3,40.48
+289,2024-09-16,15,4,8,3,0.2,Delivered,Divya Reddy,Consumer,2,Hyderabad,South,Simran Kaur,Ballpoint Pens 12pk,Stationery,60,149,357.6,180,177.6,2024,9,Sep,3,49.66
+290,2024-02-24,14,1,8,4,0.1,Cancelled,HCL Technologies,Corporate,1,Noida,North,Arjun Mehta,Ballpoint Pens 12pk,Stationery,60,149,536.4,240,296.4,2024,2,Feb,1,55.26
+291,2024-02-26,2,3,3,2,0.0,Delivered,TechStart Solutions,Small Business,2,Bangalore,South,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,3998.0,1800,2198.0,2024,2,Feb,1,54.98
+292,2023-04-14,13,3,7,6,0.05,Cancelled,CloudNine Tech,Small Business,1,Noida,North,Rohit Das,Sticky Notes Pack,Stationery,80,199,1134.3,480,654.3,2023,4,Apr,2,57.68
+293,2023-09-11,3,3,3,4,0.0,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,7996.0,3600,4396.0,2023,9,Sep,3,54.98
+294,2023-08-15,2,5,6,1,0.1,Returned,TechStart Solutions,Small Business,2,Bangalore,South,Nikhil Tiwari,Whiteboard 4x3,Office,3500,6500,5850.0,3500,2350.0,2023,8,Aug,3,40.17
+295,2023-04-22,3,2,6,2,0.08,Delivered,Rahul Sharma,Consumer,1,Delhi,North,Kavya Iyer,Whiteboard 4x3,Office,3500,6500,11960.0,7000,4960.0,2023,4,Apr,2,41.47
+296,2024-05-24,7,5,3,6,0.0,Returned,Wipro Technologies,Corporate,2,Hyderabad,South,Nikhil Tiwari,USB-C Hub 7-in-1,Electronics,900,1999,11994.0,5400,6594.0,2024,5,May,2,54.98
+297,2024-04-17,1,2,7,3,0.2,Returned,Reliance Industries,Corporate,1,Mumbai,North,Kavya Iyer,Sticky Notes Pack,Stationery,80,199,477.6,240,237.6,2024,4,Apr,2,49.75
+298,2023-04-09,10,3,3,6,0.0,Delivered,Amit Kumar,Consumer,3,Kolkata,East,Rohit Das,USB-C Hub 7-in-1,Electronics,900,1999,11994.0,5400,6594.0,2023,4,Apr,2,54.98
+299,2023-06-02,8,3,8,7,0.08,Cancelled,Sneha Joshi,Consumer,4,Pune,West,Rohit Das,Ballpoint Pens 12pk,Stationery,60,149,959.56,420,539.56,2023,6,Jun,2,56.23
+300,2023-12-04,13,5,10,1,0.1,Delivered,CloudNine Tech,Small Business,1,Noida,North,Nikhil Tiwari,Webcam HD 1080p,Electronics,2200,4299,3869.1,2200,1669.1,2023,12,Dec,4,43.14

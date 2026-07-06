@@ -1,0 +1,16 @@
+product_id,product_name,category,unit_cost,unit_price,margin_pct
+1,Laptop Pro 15,Electronics,45000,72000,37.5
+2,Wireless Mouse,Electronics,350,799,56.2
+3,USB-C Hub 7-in-1,Electronics,900,1999,55.0
+4,Office Chair Ergo,Furniture,8000,14500,44.8
+5,Standing Desk,Furniture,15000,28000,46.4
+6,Whiteboard 4x3,Office,3500,6500,46.2
+7,Sticky Notes Pack,Stationery,80,199,59.8
+8,Ballpoint Pens 12pk,Stationery,60,149,59.7
+9,A4 Paper Ream 500,Stationery,250,499,49.9
+10,Webcam HD 1080p,Electronics,2200,4299,48.8
+11,Monitor 24-inch,Electronics,12000,19999,40.0
+12,Mechanical Keyboard,Electronics,3500,6999,50.0
+13,Desk Lamp LED,Furniture,900,1799,50.0
+14,File Cabinet 4-draw,Furniture,7500,13500,44.4
+15,Planner 2024,Stationery,200,449,55.5

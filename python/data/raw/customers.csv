@@ -1,0 +1,16 @@
+customer_id,customer_name,segment,region_id,city,joined_year
+1,Reliance Industries,Corporate,1,Mumbai,2022
+2,TechStart Solutions,Small Business,2,Bangalore,2022
+3,Rahul Sharma,Consumer,1,Delhi,2022
+4,Infosys Ltd,Corporate,2,Bangalore,2022
+5,Priya Nair,Consumer,2,Chennai,2022
+6,Growfast Ventures,Small Business,4,Pune,2022
+7,Wipro Technologies,Corporate,2,Hyderabad,2022
+8,Sneha Joshi,Consumer,4,Pune,2023
+9,NextGen Retail,Small Business,5,Nagpur,2023
+10,Amit Kumar,Consumer,3,Kolkata,2023
+11,Zomato Pvt Ltd,Corporate,1,Gurgaon,2023
+12,Meera Singh,Consumer,5,Bhopal,2023
+13,CloudNine Tech,Small Business,1,Noida,2023
+14,HCL Technologies,Corporate,1,Noida,2023
+15,Divya Reddy,Consumer,2,Hyderabad,2023

@@ -1,0 +1,25 @@
+rep_name,region_name,orders,revenue
+Simran Kaur,North,10,682773.98
+Arjun Mehta,North,9,665076.02
+Kavya Iyer,South,10,619833.7
+Simran Kaur,South,10,565381.6
+Arjun Mehta,South,10,551120.7
+Kavya Iyer,North,11,392495.32
+Rohit Das,West,3,335515.48
+Rohit Das,North,12,332241.29000000004
+Arjun Mehta,East,1,331200.0
+Nikhil Tiwari,South,14,285122.7
+Simran Kaur,Central,6,255277.56
+Arjun Mehta,West,4,248769.9
+Nikhil Tiwari,Central,5,210209.32
+Nikhil Tiwari,West,5,204724.05000000002
+Nikhil Tiwari,East,5,189996.6
+Rohit Das,East,5,175965.3
+Kavya Iyer,West,4,168636.4
+Nikhil Tiwari,North,9,144065.7
+Simran Kaur,West,3,81142.3
+Rohit Das,South,4,75481.85
+Arjun Mehta,Central,5,66745.2
+Kavya Iyer,East,1,17196.0
+Rohit Das,Central,2,13696.0
+Kavya Iyer,Central,2,4153.18
