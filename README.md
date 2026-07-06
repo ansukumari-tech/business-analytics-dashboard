@@ -240,25 +240,3 @@ All DAX measures are in `powerbi/dax_measures.dax` — copy-paste ready.
 | Order Status % | SUM() OVER() |
 
 ---
-
-## 🚀 How to Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "feat: business analytics dashboard - SQL + Python + Excel + Power BI"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/business-analytics-dashboard.git
-git push -u origin main
-```
-
-> Note: `data/`, `reports/`, and `excel/*.xlsx` are in `.gitignore` by default.
-> Run the Python scripts locally to regenerate them.
-
----
-
-## 👩‍💻 Author
-
-**Ansu Verma** — 2026 Batch | Data Analytics & Full Stack Developer
-
----
